@@ -1,3 +1,11 @@
+   font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
 body {
     font-family: Arial, sans-serif;
     transition: background-color 0.3s ease;
@@ -6,17 +14,19 @@ body {
 body.light-theme {
     background-color: #ffffff;
     color: #000000;
-pre {
-     color: black;
-}
 }
 
 body.dark-theme {
     background-color: #121212;
     color: #ffffff;
-pre {
-     color: white;
 }
+
+body.light-theme pre {
+    color: black;
+}
+
+body.dark-theme pre {
+    color: white;
 }
 
 .boxed-text {
